@@ -10,9 +10,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: #dde1e7; */
-      background-image: url('/img/blur\ back.jpg');
-    transition: all .3s linear;
+    background-image: url('/img/blur\ back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .5s linear;
+    background-size: cover;
+  }
+  h1{
+    color: fafafa;
   }
   .container {
     width: 320px;
